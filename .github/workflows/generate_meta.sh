@@ -20,7 +20,7 @@ TextScriptImporter:
   assetBundleVariant: 
 END
         ;;
-    *)
+    folder)
         cat <<END
 fileFormatVersion: 2
 guid: ${UUID}
@@ -31,5 +31,9 @@ DefaultImporter:
   assetBundleName:
   assetBundleVariant:
 END
+        ;;
+    *)
+        echo "Invalid option '$OBJTYPE'"
+        exit 1
         ;;
 esac

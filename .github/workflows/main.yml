@@ -32,8 +32,8 @@ jobs:
           TARGET=Assets/SophieBlue/ExtraFootColliders
           mkdir -p $TARGET
           ls | grep -ve "\(Assets\|zip\)" | xargs -i{} mv {} $TARGET
-          .github/workflows/generate_meta.sh bc846a2331c27846b961e0f9fe107d54 > Assets/SophieBlue.meta
-          .github/workflows/generate_meta.sh 4d52ae04d1cd11eeaf1674563c4735c7  > Assets/SophieBlue/ExtraFootColliders.meta
+          .github/workflows/generate_meta.sh folder bc846a2331c27846b961e0f9fe107d54 > Assets/SophieBlue.meta
+          .github/workflows/generate_meta.sh folder 1b944c236943dca1481e192637dc56b4  > Assets/SophieBlue/ExtraFootColliders.meta
           find Assets -type f -name \*.meta >> metaList
 
       - name: Create Unity Package

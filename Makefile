@@ -16,8 +16,8 @@ $(TARGET): Editor/Version.cs package.json
 	# copy stuff to a tempdir to build our release tree
 	mkdir -p .tmp/Assets/SophieBlue/ExtraFootColliders
 	ls | grep -v "Assets" | xargs -i{} cp -a {} .tmp/Assets/SophieBlue/ExtraFootColliders/
-	.github/workflows/generate_meta.sh bc846a2331c27846b961e0f9fe107d54 > .tmp/Assets/SophieBlue.meta
-	.github/workflows/generate_meta.sh 4d52ae04d1cd11eeaf1674563c4735c7 > .tmp/Assets/SophieBlue/ExtraFootColliders.meta
+	.github/workflows/generate_meta.sh folder bc846a2331c27846b961e0f9fe107d54 > .tmp/Assets/SophieBlue.meta
+	.github/workflows/generate_meta.sh folder 1b944c236943dca1481e192637dc56b4 > .tmp/Assets/SophieBlue/ExtraFootColliders.meta
 
 	# build the unity package
 	cup -c 2 -o $@ -s .tmp
