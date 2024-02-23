@@ -1,6 +1,6 @@
 {
     "name": "io.github.sophiebluevr.extrafootcolliders",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "displayName": "Extra Foot Colliders",
     "description": "Turns some of your avatar finger colliders into foot colliders",
     "type": "tool",
@@ -14,10 +14,9 @@
     "changelogUrl": "https://github.com/SophieBlueVR/ExtraFootColliders/blob/main/CHANGELOG.md",
     "licenseUrl": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
     "license": "CC-BY-NC-SA-4.0",
-    "url": "https://github.com/SophieBlueVR/ExtraFootColliders/releases/download/v0.1.2/ExtraFootColliders-v0.1.2.zip",
+    "url": "https://github.com/SophieBlueVR/ExtraFootColliders/releases/download/v0.1.3/ExtraFootColliders-v0.1.3.zip",
     "repo": "https://SophieBlueVR.github.io/vpm/index.json",
     "legacyFolders" : {
-        "Assets\\SophieBlue": "bc846a2331c27846b961e0f9fe107d54",
         "Assets\\SophieBlue\\ExtraFootColliders": "4d52ae04d1cd11eeaf1674563c4735c7"
     },
     "vpmDependencies": {
